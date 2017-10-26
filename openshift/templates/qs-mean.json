@@ -86,7 +86,7 @@
             "from": {
               "kind": "ImageStreamTag",
               "namespace": "openshift",
-              "name": "centos7-s2i-nodejs:latest"
+              "name": "centos7-s2i-nodejs:5.12"
             },
             "env": [
               {
@@ -397,7 +397,7 @@
       "displayName": "Git Repository URL",
       "description": "The URL of the repository with your application source code.",
       "required": true,
-      "value": "https://github.com/thedigitalgarage/mean-ex.git"
+      "value": "https://github.com/rburton04/nodejs-ex.git"
     },
     {
       "name": "SOURCE_REPOSITORY_REF",
